@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int a, b;
-    scanf("%d %d", &a, &b);
-    printf("the parimeter of rectangle is %d", 2 * (a + b));
+    float width, length;
+    printf("enter base & length :");
+    scanf("%f %f", &width, &length);
+    printf("the parimeter of rectangle is %.2f", 2 * (width + length));
     return 0;
 }

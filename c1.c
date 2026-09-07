@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int side;
+    float side;
     printf("enter side :");
-    scanf("%d", &side);
-    printf("the area of aquare is %d", side * side);
+    scanf("%f", &side);
+    printf("the area of aquare is %.2f", side * side);
     return 0;
 }
